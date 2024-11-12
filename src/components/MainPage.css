@@ -1,0 +1,30 @@
+/* MainPage.css */
+
+.main-page-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    flex: 2; /* 20% of the space */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+}
+
+.middle-section {
+    flex: 4.5; /* 45% of the space */
+    padding: 20px;
+    background-color: #fff;
+}
+
+.right-section {
+    flex: 3.5; /* 35% of the space */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 1px solid #ddd;
+}
+
+
+
+

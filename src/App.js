@@ -1,12 +1,11 @@
-// src/App.js
 import React from 'react';
-import './App.css';  // Importing the global CSS file
-import TaskManager from './components/TaskManager';
+import MainPage from './components/MainPage';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <TaskManager />
+      <MainPage />
     </div>
   );
 }
